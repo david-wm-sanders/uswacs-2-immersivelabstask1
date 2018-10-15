@@ -5,8 +5,7 @@ RUN apt-get update \
 && apt-get upgrade -yq \
 && apt-get install -yq \
 net-tools \
-nano \
-nano \
+vim \
 openssh-server \
 unzip \
 wget \
