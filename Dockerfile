@@ -22,5 +22,8 @@ git \
 RUN useradd -ms /bin/bash linux && \
 echo 'linux:Passw0rd!' | chpasswd
 
+# Set up the sshd directory
+RUN mkdir -p /run/sshd
+
 # Command to hold container open
 CMD ["/usr/sbin/sshd", "-D"]
