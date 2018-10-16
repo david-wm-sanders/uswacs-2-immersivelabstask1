@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo docker stop il_$1_$2
+sudo docker stop il_$1
