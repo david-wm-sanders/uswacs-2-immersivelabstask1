@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo docker build -t "il_task:$1" .
+sudo docker build -t "$1:$2" dfs/$1
