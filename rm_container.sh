@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo docker container rm il_$1
+sudo docker container rm $1

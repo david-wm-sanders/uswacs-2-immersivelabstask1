@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo docker run --name il_basic -d 01_basic:$1
+sudo docker run --name 01_basic --detach 01_basic:$1
